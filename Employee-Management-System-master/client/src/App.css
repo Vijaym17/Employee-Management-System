@@ -1,0 +1,86 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.infoo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.infoo input {
+  margin-bottom: 5%;
+  width: 300px;
+  height: 20px;
+  font-size: 16px;
+  padding-left: 2%;
+}
+
+.infoo button {
+  width: 160px;
+  height: 30px;
+}
+
+.infoo button:hover {
+  cursor: pointer;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.emplBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.emplBtn button {
+  width: 160px;
+  height: 30px;
+}
+
+.emplBtn button:hover {
+  width: 165px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.empNameBox {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.empName {
+  border: #000000 1px solid;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 2%;
+  padding: 12px;
+  /* padding: auto; */
+}
+
+.listBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.notification {
+  height: 20px;
+  width: 120px;
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 8px;
+  right: 86vw;
+  top: 2vh;
+}
